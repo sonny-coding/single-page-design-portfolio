@@ -1,5 +1,3 @@
-// import React, { useRef, useState } from "react";
-// Import Swiper React components
 import {
   Image1,
   Image2,
@@ -20,12 +18,14 @@ import "swiper/css/effect-coverflow";
 import { Navigation, EffectCoverflow } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import { PrimaryButton } from "./Button";
+import { SliderButton } from "./Button";
 
 export default function ImageSwiper() {
   return (
-    <>
-      {" "}
+    <section className="w-full text-center mx-[-10px]">
+      <h3 className="text-[24px] md:text-[32px] font-bold leading-[30px] md:leading-[40px] mb-5">
+        My Work
+      </h3>
       <Swiper
         // navigation={true}
         slidesPerView={"auto"}
@@ -35,7 +35,6 @@ export default function ImageSwiper() {
         navigation={{
           prevEl: ".prev",
           nextEl: ".next",
-          // clickable: true,
         }}
         grabCursor={true}
         breakpoints={{
@@ -61,26 +60,20 @@ export default function ImageSwiper() {
         <SwiperSlide>
           <img src={Image5} alt="image5" />
         </SwiperSlide>
-        <button className="prev">
-          prev
-          {/* <PrimaryButton> */}
-          <ArrowLeft />
-          {/* </PrimaryButton> */}
-        </button>
-        <button className="next">next</button>
-        {/* <div className="slider-controller mx-auto w-[20%] flex justify-between items-center">
-          <div className="swiper-button-prev">
-            <PrimaryButton>
+
+        <div className="mx-auto mt-4 flex justify-center items-center gap-2">
+          <div className="prev">
+            <SliderButton>
               <ArrowLeft />
-            </PrimaryButton>
+            </SliderButton>
           </div>
-          <div className="swiper-button-next">
-            <PrimaryButton>
+          <div className="next">
+            <SliderButton>
               <ArrowRight />
-            </PrimaryButton>
+            </SliderButton>
           </div>
-        </div> */}
+        </div>
       </Swiper>
-    </>
+    </section>
   );
 }
