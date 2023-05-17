@@ -12,10 +12,9 @@ import { SwiperSlide, Swiper } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/effect-coverflow";
 
 // import required modules
-import { Navigation, EffectCoverflow } from "swiper";
+import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import { SliderButton } from "./Button";
