@@ -12,6 +12,7 @@ import {
   ImageAmy,
 } from "./assets";
 import { PrimaryButton, SecondaryButton } from "./components/Button";
+import ImageSwiper from "./components/ImageSwiper";
 
 const App = () => {
   return (
@@ -30,6 +31,12 @@ const App = () => {
           With over ten years of experience in various design disiplines,
           I&apos;m your one-stop shop for your design needs.
         </p>
+      </div>
+      <div className="w-full text-center">
+        <h3 className="text-[24px] md:text-[32px] font-bold leading-[30px] md:leading-[40px]">
+          My Work
+        </h3>
+        <ImageSwiper />
       </div>
       <div className="[&>*]:rounded-md w-full grid grid-cols-2 grid-rows-6 gap-3 md:grid-cols-4 md:grid-rows-3 lg:grid-cols-6 lg:grid-rows-2 ">
         <div className="w-full h-auto bg-galacticBlue col-span-2 row-span-2 flex flex-col justify-between gap-5 overflow-hidden p-3">
