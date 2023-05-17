@@ -20,6 +20,9 @@ Users should be able to:
 
 ### Screenshot
 
+![Mobile](./screenshots/mobile.png)
+![Desktop](./screenshots/desktop.png)
+
 ### Link
 
 - Solution URL: [Single-page design portfolio](https://github.com/sonny-coding/single-page-design-portfolio)

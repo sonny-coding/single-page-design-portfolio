@@ -8,15 +8,12 @@ import {
   ArrowRight,
 } from "../assets";
 import { SwiperSlide, Swiper } from "swiper/react";
+import { Navigation } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import required modules
-import { Navigation } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
 import { SliderButton } from "./Button";
 
 export default function ImageSwiper() {
