@@ -27,7 +27,7 @@ export default function ImageSwiper() {
         My Work
       </h3>
       <Swiper
-        // navigation={true}
+        initialSlide={1}
         slidesPerView={"auto"}
         centeredSlides={true}
         spaceBetween={30}
@@ -59,6 +59,9 @@ export default function ImageSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Image5} alt="image5" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Image3} alt="image5" />
         </SwiperSlide>
 
         <div className="mx-auto mt-4 flex justify-center items-center gap-2">
