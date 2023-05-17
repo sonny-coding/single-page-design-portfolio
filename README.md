@@ -23,10 +23,10 @@ Users should be able to:
 ![Mobile](./screenshots/mobile.png)
 ![Desktop](./screenshots/desktop.png)
 
-### Link
+### Links
 
 - Solution URL: [Single-page design portfolio](https://github.com/sonny-coding/single-page-design-portfolio)
-- Live Site URL:
+- Live Site URL: [Vercel](https://single-page-design-portfolio-three.vercel.app/)
 
 ### Built with
 
